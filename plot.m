@@ -1,7 +1,7 @@
 % first import the 2 datasets using File > Import Data and rename them km and kmp
 % then paste the code below in Matlab
 
-legendString = {['k-means (n=400'],	['k-means++ (n=400)']};
+legendString = {['k-means (n=500'],	['k-means++ (n=500)']};
 
 xBins = 449100:1100:558600;          					% Bin positions will be 0.5 apart
 [n_km, x_km] = hist(km, xBins, 'k');       	% Histogram of km
